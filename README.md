@@ -4,7 +4,7 @@
 
 ## API REST
 
-- Get value from key
+### Get value from key
 - Status Code:
   1. **200**: if the key has a value.
   2. **400**: if the key param is undefined or contains only white spaces.
@@ -15,7 +15,7 @@ curl --location --request GET 'http://localhost:8080/key/test' \
 --header 'Content-Type: application/json'
 ```
 
-- Post new key value pair
+### Post new key value pair
 - Status Code:
   1. **201**: if the key value pair was accepted.
   2. **400**: if the key or the value are undefined or contains only white spaces.
